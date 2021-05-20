@@ -6,3 +6,7 @@ src: url(../fonts/Skinny-Regular.otf);
 .skinny-font {
 	font-family: skinnyFont, sans-serif;
 }
+
+h1 .skinny-font {
+	font-size: 60px;
+}
