@@ -6,8 +6,8 @@ function my_custom_styles( $init_array ) {
     $style_formats = array(  
         // These are the custom styles
         array(  
-            'title' => 'Skinny H2',  
-            'block' => 'h2',  
+            'title' => 'Skinny Title',  
+            'block' => 'h3',  
             'classes' => 'skinny-font',
             'wrapper' => true,
         ),  
