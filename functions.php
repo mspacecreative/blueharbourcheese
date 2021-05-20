@@ -34,3 +34,5 @@ function customScripts()
     wp_enqueue_script('mainjs');
 }
 add_action('wp_enqueue_scripts', 'customScripts');
+
+include 'functions/tinymce.php';
