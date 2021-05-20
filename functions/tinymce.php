@@ -7,7 +7,7 @@ function my_custom_styles( $init_array ) {
         // These are the custom styles
         array(  
             'title' => 'Skinny Title',  
-            'block' => 'h3',  
+            'inline' => 'span',  
             'classes' => 'skinny-font',
             'wrapper' => true,
         ),  
