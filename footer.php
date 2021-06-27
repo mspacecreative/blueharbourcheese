@@ -49,13 +49,10 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 				<?php
 					if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
 						get_template_part( 'includes/social_icons', 'footer' );
-					}
-
-					// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
-					echo '
-					<p>' . esc_html_e('&copy; '); date('Y '); bloginfo('name') . '<br />' . esc_html_e('Artwork by ') . '<a href="' . esc_url(home_url('art-life')) . '">' . esc_html_e('Wayne Boucher') . '</a><br />' . esc_html_e('Graphics by ') . '<a href="https://revolve.ca/"> target="_blank"' . esc_html_e('Revolve') . '</a></p>';
-					// phpcs:enable
-				?>
+					} ?>
+					<p>
+						&copy; <?php echo date('Y '); echo bloginfo('name'); echo '. '; ?>Artwork by <a href="<?php echo home_url('art-life'); ?>">Wayne Boucher</a>. Graphics by <a href="https://revolve.ca/" target="_blank">Revolve</a>.
+					</p>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->
