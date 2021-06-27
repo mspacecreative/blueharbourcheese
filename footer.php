@@ -53,7 +53,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 					// phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 					echo '
-					<p>' . esc_html_e('&copy; ') date('Y ') bloginfo('name') . '<br />' . esc_html_e('Artwork by ') . '<a href="' . esc_url(home_url('art-life')) . '">' . esc_html_e('Wayne Boucher') . '</a><br />' . esc_html_e('Graphics by ') . '<a href="https://revolve.ca/"> target="_blank"' . esc_html_e('Revolve') . '</a></p>';
+					<p>' . esc_html_e('&copy; '); date('Y '); bloginfo('name') . '<br />' . esc_html_e('Artwork by ') . '<a href="' . esc_url(home_url('art-life')) . '">' . esc_html_e('Wayne Boucher') . '</a><br />' . esc_html_e('Graphics by ') . '<a href="https://revolve.ca/"> target="_blank"' . esc_html_e('Revolve') . '</a></p>';
 					// phpcs:enable
 				?>
 					</div>	<!-- .container -->
