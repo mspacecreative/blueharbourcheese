@@ -10,3 +10,8 @@ src: url(../fonts/Skinny-Regular.otf);
 h1 .skinny-font {
 	font-size: 60px;
 }
+
+#sidebar ol, #sidebar ul {
+	list-style: inherit;
+	padding-left: 18px;
+}
